@@ -1,0 +1,43 @@
+.content-main {
+    border-bottom: 1px solid #dedede;
+    font-size: 16px;
+    
+    p  {
+        margin: 30px 0;
+    }
+
+    .spotlight-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        .figure-text {
+            color: #bcbcbc;
+            font-family: 'EB Garamond', serif;
+            font-size: 12px;
+            padding-top: 5px;
+        }
+
+    }
+
+    .paging-container {
+        display: flex;
+        justify-content: flex-end;
+        padding: 20px 0;
+
+        .paging-nav-btn {
+            border-radius: 0;
+            color: #000;
+            font-size: 11px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            text-transform: uppercase;
+
+            .arrow {
+                font-size: 9px;
+                padding-left: 2px;
+            }
+        }
+    }
+}

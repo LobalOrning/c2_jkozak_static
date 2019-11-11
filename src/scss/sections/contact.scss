@@ -1,0 +1,28 @@
+.submit-btn {
+    border-radius: 0;
+    color: #000;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#contact-form {
+    font-family: 'Times New Roman', Times, serif;
+
+    .textarea {
+        resize: none;
+    }
+
+    input[type=text], textarea {
+        border-left: none;
+        border-radius: 0;
+        border-right: none;
+        border-top: 0;
+        box-shadow: none;
+        font-family: 'Times New Roman', Times, serif;
+
+        &.is-danger {
+            color: $danger;
+        }
+    }
+}

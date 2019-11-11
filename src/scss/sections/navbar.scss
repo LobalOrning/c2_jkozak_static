@@ -1,0 +1,46 @@
+.navbar {
+    background-color: transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;;
+
+    &.is-scrolled {
+        background-color: #fff;
+        color: #000;
+        opacity: .9;
+
+        .navbar-item {
+            color: #bebebe;
+        }
+    }
+
+    .navbar-item {
+        color: #fff;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .navbar-menu {
+        a {
+            font-size: 9px;
+            text-transform: uppercase;
+
+            &:hover {
+                background-color: transparent;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $desktop) {
+    .navbar {
+        background-color: #fff;
+
+        &.is-scrolled {
+            opacity: 1;
+        }
+
+        .navbar-item {
+            color: #bebebe;
+        }
+    }
+}

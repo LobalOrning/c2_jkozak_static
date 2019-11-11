@@ -1,0 +1,125 @@
+.header-container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+
+    img.desktop {
+        display: block;
+    }
+    
+    img.mobile {
+        display: none;
+    }
+
+    .teaser-container {
+        align-items: flex-start;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        left: 50%;
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        white-space: nowrap;
+
+        .teaser-copy-title {
+            font-size: 48px;
+            font-weight: bold;
+            text-align: center;
+
+            &.long {
+                text-align: left;
+            }
+        }
+
+        .teaser-divider {
+            border-bottom: 2px solid #fff;
+            margin: 0 auto;
+            width: 25%;
+        }
+
+        .teaser-copy {
+            font-size: 18px;
+            text-align: center;
+            margin-top: 10px;
+            width: 100%;
+
+            &.long {
+                text-align: left;
+            }
+        }
+
+        .teaser-author {
+            font-family: 'EB Garamond', serif;
+            font-size: 18px;
+            font-style: italic;
+            text-justify: left;
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (min-width: $tablet) and (max-width: $desktop) { 
+    .header-container {
+
+        img.desktop {
+            display: none;
+        }
+
+        img.mobile {
+            display: block;
+        }
+
+        .teaser-container {
+            white-space: normal;
+            word-wrap: break-word;
+
+            .teaser-copy-title {
+                font-size: 68px; 
+
+                &.long {
+                    font-size: 20px;
+                }
+            }
+
+            .teaser-copy {
+                &.long {
+                    font-size: 16px;
+                }
+            }
+            
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header-container {
+
+        img.desktop {
+            display: none;
+        }
+
+        img.mobile {
+            display: block;
+        }
+
+        .teaser-container {
+            white-space: normal;
+            word-wrap: break-word;
+
+            .teaser-copy-title {
+                font-size: 48px;
+
+                &.long {
+                    white-space: nowrap;
+                    font-size: 20px;
+                    padding-top: 25px;
+                }
+            }
+        }
+
+        .teaser-author {
+            font-size: 14px;
+        }
+    }
+}

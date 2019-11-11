@@ -1,0 +1,30 @@
+.post {
+    border-bottom: 1px solid #dedede;
+    font-family: 'Open Sans', sans-serif;
+    padding: 15px 0 20px 0;
+    
+    p {
+        margin: 0;
+    }
+
+    .header {
+        font-size: 28px;
+        font-weight: bold;
+        line-height: 1.3em;
+    }
+
+    .copy {
+      padding: 5px 0;
+      font-size: 16px;
+    }
+
+    .author-line {
+        color: #bcbcbc;
+        font-family: 'EB Garamond', serif;
+        padding: 5px 0;
+
+        .author {
+            color: #818181;
+        }
+    }
+}

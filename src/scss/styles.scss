@@ -1,0 +1,19 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,700,700i|Open+Sans:400,600,700,800&display=swap');
+@import "variables.scss";
+
+@import "../../node_modules/bulma/bulma.sass";
+
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+
+@import "sections/main.scss";
+@import "sections/navbar.scss";
+@import "sections/teaser.scss";
+@import "sections/content.scss";
+@import "sections/social.scss";
+@import "sections/legal.scss";
+@import "sections/contact.scss";
+@import "sections/quote.scss";
+@import "sections/post.scss";
